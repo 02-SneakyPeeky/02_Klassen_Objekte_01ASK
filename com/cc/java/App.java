@@ -21,6 +21,7 @@ public class App {
         output(cat1.tellYourName());
         output(cat1.tellYourFurColor());
         output(Integer.toString(cat1.tellYourAge()));
+        
         // output(cat1.age);                  // geht nicht*/
         // output(String.valueOf(2));         // geht auch..
         // output("Ausgabe Zahl " + 2);       // geht auch so..*/
