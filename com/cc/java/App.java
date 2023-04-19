@@ -14,6 +14,9 @@ public class App {
 
         output(cat1.name);
         output(cat1.furColor);
+        // output(cat1.age);
+        // output(String.valueOf(2));
+        output(Integer.toString((cat1.age)));
 
         // output("-------------------------");
 
