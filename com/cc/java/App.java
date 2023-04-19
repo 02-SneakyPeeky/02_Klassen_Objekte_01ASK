@@ -17,19 +17,17 @@ public class App {
         cat1.furColor = "white";
         cat1.age = 29;
 
-
-
-
-
         //Ausgabe
-        output(cat1.name);
-        output(cat1.furColor);
-        output(Integer.toString((cat1.age)));
-        // output(cat1.age); // geht nicht*/
-        // output(String.valueOf(2));
-        // output("Ausgabe Zahl " + 2); // geht auch so..*/
+        output(cat1.tellYourName());
+        output(cat1.tellYourFurColor());
+        output(Integer.toString(cat1.tellYourAge()));
+        // output(cat1.age);                  // geht nicht*/
+        // output(String.valueOf(2));         // geht auch..
+        // output("Ausgabe Zahl " + 2);       // geht auch so..*/
+
 
         output("-------------------------");
+
 
         Cat cat2 = new Cat();  
         output("Blick von aussen: "+cat2);
@@ -39,9 +37,9 @@ public class App {
         cat2.furColor = "grey";
         cat2.age = 35;
 
-        output(cat2.name);
-        output(cat2.furColor);
-        output(Integer.toString((cat2.age)));
+        output(cat2.tellYourName());
+        output(cat2.tellYourFurColor());
+        output(Integer.toString((cat2.tellYourAge())));
     }
 
     public static void output(String outStr) {

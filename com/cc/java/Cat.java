@@ -7,9 +7,22 @@ public class Cat {
     public int age; 
 
 
+    // this -- Instanzvariable
+    public String tellYourAddress() {
+        return "Blick von innen: " + this;
+    }
 
- public String tellYourAddress() {
-    return "Blick von innen: " + this;
-}
+    public String tellYourName() {
+        return this.name;   
+    }
+    
+    public String tellYourFurColor() {
+        return this.furColor;
+    }
+    
+    public int tellYourAge() {
+        return this.age;
+    }
 
 }
+    
