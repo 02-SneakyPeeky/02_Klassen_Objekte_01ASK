@@ -23,6 +23,19 @@ public class Cat {
     public int tellYourAge() {
         return this.age;
     }
+    
+    // Change *//
+    public void changeName(String name) {
+        this.name = name;
+    }
+
+    public void changeFurColor(String furColor) {
+        this.furColor = furColor;
+    }
+
+    public void changeAge(int age) {
+        this.age = age;
+    }
 
 }
     
