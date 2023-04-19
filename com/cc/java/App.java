@@ -18,11 +18,11 @@ public class App {
         // output(String.valueOf(2));
         output(Integer.toString((cat1.age)));
 
-        // output("-------------------------");
+        output("-------------------------");
 
-        // Cat cat2 = new Cat();  
-        // output("Blick von aussen: "+cat2);
-        // output(cat2.tellYourAddress());
+        Cat cat2 = new Cat();  
+        output("Blick von aussen: "+cat2);
+        output(cat2.tellYourAddress());
     }
 
     public static void output(String outStr) {
