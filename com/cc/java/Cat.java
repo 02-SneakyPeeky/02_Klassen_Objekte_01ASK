@@ -2,8 +2,14 @@ package com.cc.java;
 
 public class Cat {
 
- public void tellYourAddress() {
-    System.out.println("Blick von innen: " + this);
+    public String name;
+    public String furColor; 
+    public int age; 
+
+
+
+ public String tellYourAddress() {
+    return "Blick von innen: " + this;
 }
 
 }
