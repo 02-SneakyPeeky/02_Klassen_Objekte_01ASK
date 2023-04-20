@@ -16,7 +16,7 @@ public class Cat {
         
     }
 
-
+    // Getter und Setter
     public String getName() {
         return name;
     }
