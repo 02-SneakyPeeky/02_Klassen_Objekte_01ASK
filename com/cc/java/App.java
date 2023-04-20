@@ -12,7 +12,7 @@ public class App {
         // output("Blick von aussen: "+ cat1); (inst.Var. wird
         // output(cat1.tellYourAddress());  - wird nicht mehr gebraucht)
 
-        //Wertzuweißung
+        //Wertzuweißung (wird nach Costructor nicht mehr benötigt)
         // cat1.changeName("Grizabella");
         // cat1.changeFurColor( "white");
         // cat1.changeAge(29);
@@ -49,7 +49,7 @@ public class App {
 
         output(cat2.getName());
         output(cat2.getFurColor());
-        output(Integer.toString((cat2.getAge())));
+        output(Integer.toString(cat2.getAge()));
 
         
     }
