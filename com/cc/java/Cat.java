@@ -18,7 +18,12 @@ public class Cat {
 
     // Getter und Setter
     public String getName() {
-        return name;
+        if (checkPermission()) {   //je nach boolean ist entweder if oder else ausgabe ohne funktion.              
+            return name;
+        }         
+        else {
+            return "sorry, no permission";
+        }
     }
 
 
@@ -46,7 +51,9 @@ public class Cat {
         this.age = age;
     }
 
-
+        private boolean checkPermission() {
+            return false;
+        }
 
     // this -- Instanzvariable (wird nach dem Constructor
     // nicht mehr benötigt)
